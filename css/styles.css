@@ -1,0 +1,159 @@
+body {
+min-width: 100vw;
+min-height: 100vh;
+}
+.banner-container{
+  position: relative;
+  text-align: center;
+  width: 100vw;
+  max-height: 300px;
+  min-height: 200px;
+  object-fit: cover;
+}
+#banner {
+  width: 100vw;
+  max-height: 300px;
+  min-height: 200px;
+  object-fit: cover;
+  -webkit-filter: brightness(70%);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav-item a:hover { text-shadow: 0 0 10px #ffffff; }
+.white-bg {
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.semi-opaque-white-bg {
+  padding: 50px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.7);
+}
+.black-bg {
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #000000;
+}
+.grey-bg {
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+}
+.wood-bg {
+  background-image: url("../images/wood_bg.jpeg");
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+.engine-bg {
+  background-image: url("../images/engine_bg_blurred.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.edu-bg {
+  background-image: url("../images/education.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.forms-bg {
+  background-image: url("../images/training.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact-bg {
+  background-image: url("../images/dispatch.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.portal-bg {
+  background-image: url("../images/hose.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.black-outline {
+  text-shadow: 2px 2px 0px #000000;
+}
+.white-outline {
+  text-shadow: 3px 3px 0px #ffffff;
+}
+.navbar-nav{
+  margin:0 auto;
+  width:80vw;
+}
+.nav-item {
+  margin: 0;
+  width: 80vw;
+}
+.nav-link { font-family: "Trebuchet MS", Helvetica, sans-serif; }
+.col-lg-3 {   width:100%; }
+.col-lg-3 img {
+  object-fit: cover;
+  width:100%;
+}
+.col-lg-4 { margin: 15px auto; }
+.display-4 { font-family:'Lucida Console', Monaco, monospace; }
+.jumbotron p {
+  font-size: 1.15em;
+  font-family:'Times New Roman', Times, serif;
+}
+.col-lg-3 .list-group {
+  font-size: 1.15em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list-group .active { font-family:'Arial Black', Gadget, sans-serif; }
+.mb-3 { max-width: 80vw; }
+.card-body div{ text-align: center; }
+h5 { font-family:'Lucida Console', Monaco, monospace; }
+.col img {
+  max-width: 400px;
+  margin:0 20px;
+}
+.container-fluid .list-group { margin-left: 40px; width:400px; }
+.h3 { margin: 0 auto;}
+.modal-dialog { margin: 0 5vw; }
+.modal-content { width: 90vw; }
+.imagepreview { width: 100%; }
+.pop img:hover {
+  transition: .5s ease;
+  -webkit-filter: brightness(50%);
+}
+.row {
+  margin: 0 auto;
+}
+.card-home { min-height: 700px; }
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+.carousel-indicators .active {
+  background-color: #444;
+}
+tbody {
+  display: block;
+  height: 680px;
+  overflow-y: scroll;
+}
+.news-card {
+  width:80vw;
+  max-width: 1200px;
+}
+@media screen and (max-width:600px) {
+  .news-card {
+    width:98vw;
+  }
+}
+.portal-card {
+  width: 250px;
+}
+.portal-btn {
+  margin-top: auto;
+}
